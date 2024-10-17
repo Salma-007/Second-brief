@@ -378,3 +378,25 @@ display: flex;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
 }
+.blog-blog{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.blog-blog h1{
+  text-align: center;
+}
+.blog-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.blog-card{
+  display: flex;
+}
+.nouveau{
+  width: 300px;
+  font-size: 10px;
+}
