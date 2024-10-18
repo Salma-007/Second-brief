@@ -461,7 +461,14 @@ display: flex;
 .card-properties{
   display: flex;
   flex-direction: column;
+  border-radius: 20px;
+  transition: background-color 0.3s, transform 0.3s;
 
+}
+.card-properties:hover{
+  background-color: #98afd0;
+    color: white;
+    transform: scale(1.05);
 }
 .card-properties img{
   padding: 15px;
@@ -482,6 +489,7 @@ display: flex;
 .card-properties-with-title{
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 .card-properties-with-title h3{
   display: flex;
