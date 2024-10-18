@@ -395,8 +395,13 @@ display: flex;
 }
 .blog-card{
   display: flex;
+  border: 1px solid gray;
+  border-radius: 15px;
+  margin-top: 30px;
 }
 .nouveau{
-  width: 300px;
+  width: 330px;
   font-size: 10px;
+  background-color: #D9D9D9;
+  border-radius: 10px;
 }
