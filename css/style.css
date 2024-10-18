@@ -357,14 +357,12 @@ display: flex;
 .area1{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 50%;
   justify-content: space-evenly;
-  height: 100%; 
   background-color: #DCEDF4;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  align-items: baseline;
-
+  padding-left: 3%;
 }
 .area1 input{
   width: 50%;
