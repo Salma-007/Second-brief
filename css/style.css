@@ -164,8 +164,12 @@ gap: 40px;
 width: 100%;
 border: 1px solid red; 
 display: flex;
-/* align-items: left; */
+position: relative;
 justify-content: center;
+}
+.grid-item h2{
+  position: absolute;
+  top: 26px;
 }
 
 .grid-section{
@@ -284,7 +288,7 @@ display: flex;
 .footer{
   display: flex;
   margin: 120px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .footer-section1{
 
@@ -318,6 +322,7 @@ display: flex;
 .footer-section2 p:first-child{
   font: bold;
 }
+
 .footer-section3{
   display: flex;
   flex-direction: column;
@@ -404,4 +409,48 @@ display: flex;
   font-size: 10px;
   background-color: #D9D9D9;
   border-radius: 10px;
+}
+
+.section2-properties{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.properties-titre{
+  display: flex;
+}
+.card-properties{
+  display: flex;
+  flex-direction: column;
+
+}
+.card-properties img{
+  padding: 15px;
+}
+.cards-properties{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.properties-description{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-properties-with-title{
+  display: flex;
+  flex-direction: column;
+}
+.desc{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.card-properties-with-title{
+  display: flex;
+  flex-direction: column;
 }
