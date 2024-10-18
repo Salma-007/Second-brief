@@ -168,7 +168,7 @@ justify-content: center;
 }
 .grid-item h2{
   position: absolute;
-  top: 26px;
+  margin-top: 20px;
 }
 
 .grid-section{
