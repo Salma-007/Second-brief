@@ -287,7 +287,7 @@ display: flex;
 }
 .footer{
   display: flex;
-  margin: 120px;
+  margin: 100px;
   justify-content: space-between;
 }
 .footer-section1{
@@ -413,12 +413,17 @@ display: flex;
 
 .section2-properties{
   width: 80%;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 .properties-titre{
   display: flex;
+  justify-content: space-between;
+}
+.properties-titre{
+  margin-left: 40%;
 }
 .card-properties{
   display: flex;
@@ -444,6 +449,10 @@ display: flex;
 .card-properties-with-title{
   display: flex;
   flex-direction: column;
+}
+.card-properties-with-title h3{
+  display: flex;
+  justify-content: center;
 }
 .desc{
   display: flex;
