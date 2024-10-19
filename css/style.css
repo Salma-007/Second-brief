@@ -40,7 +40,7 @@ border-radius: 10px;
 /* this is the hero style */
 
 .hero-section {
-width: 95%;
+width: 85%;
 margin: 0 auto 90px;
 background-image: url("../images/background-hero.png");
 background-size: cover;
@@ -162,7 +162,6 @@ gap: 40px;
 }
 .grid-item {
 width: 100%;
-border: 1px solid red; 
 display: flex;
 justify-content: center;
 }
@@ -206,7 +205,6 @@ display: flex;
 
 .section-blog-flex{
   display: flex;
-  border: 1px solid red; 
   flex-wrap: wrap;   
   justify-content: space-evenly;
   margin-bottom: 50px;
@@ -215,10 +213,10 @@ display: flex;
 
 .flex-container-blog{
   display: flex;
-  border: 1px solid blue;
+  border: 1px solid lightgrey;
   border-radius: 30px;  
   margin: 10px;
-  
+  padding: 13px;
 }
 .image1-flex{
   padding: 6px;
@@ -260,10 +258,10 @@ display: flex;
 .contact-us{
  width: 85%;
  padding: 80px 60px;
+ height: 480px;
  margin: 0 auto;
  background: url('../images/contact-background.png');
- background-position: calc(100%);
- background-size: calc(40%);
+ background-position: right;
  background-repeat: no-repeat;
  background-color: #DCEDF4;
  border-radius: 40px;
@@ -429,6 +427,7 @@ display: flex;
   margin-top: 30px;
   gap: 3px;
   padding: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
 .nouveau{
   width: 330px;
@@ -458,6 +457,7 @@ display: flex;
   padding: 8px 30px;
   border-radius: 13px;
   padding-left: 20px;
+  background-color: #ECE6F0;
 }
 .card-properties{
   display: flex;
@@ -504,4 +504,9 @@ display: flex;
 .card-properties-with-title{
   display: flex;
   flex-direction: column;
+}
+.see-more{
+  margin-right: 150px;
+  color: #3fadec;
+  text-align: right;
 }
