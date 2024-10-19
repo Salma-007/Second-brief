@@ -29,7 +29,7 @@ margin: 0 15px;
 color: black;
 text-decoration: none;
 padding: 10px 15px;
-transition: background-color 0.3s;
+font-size: medium;
 }
 .navbar li:last-child a {
 color: blue;
@@ -151,20 +151,22 @@ text-align: center;
 }
 
 .grid-container {
-width: 85%;
-margin: 0 auto;
-margin-top: 40px;
-margin-bottom: 40px;
-display: flex;
-flex-direction: row;
-height: auto;
-gap: 40px;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  gap: 40px;
 }
 .grid-item {
-width: 100%;
-display: flex;
-justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
 }
+
 .grid-item h2{
   position: absolute;
   margin-top: 20px;
@@ -180,25 +182,25 @@ justify-content: space-around;
 margin: 20px;
 }
 .titre3 {
-font-family: "Lufga";
-font-style: normal;
-font-weight: 300;
-font-size: 30px;
-text-align: center;
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
 }
 .grid-item1 {
-display: flex;
-background-color: aqua;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
+  display: flex;
+  background-color: aqua;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 
 .section-blog{
   margin-bottom: 100px;
-display: flex; 
- flex-direction: column;
+  display: flex; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -336,8 +338,7 @@ display: flex;
   padding: 10px;
   border: 2px solid #545f5e; 
   border-radius: 15px; 
-  outline: none; 
-  transition: border-color 0.3s ease; 
+
 }
 .footer-section4{
   display: flex;
@@ -509,4 +510,5 @@ display: flex;
   margin-right: 150px;
   color: #3fadec;
   text-align: right;
+  cursor: pointer;
 }
