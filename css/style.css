@@ -40,7 +40,7 @@ border-radius: 10px;
 /* this is the hero style */
 
 .hero-section {
-width: calc(94% - 140px);
+width: 95%;
 margin: 0 auto 90px;
 background-image: url("../images/background-hero.png");
 background-size: cover;
@@ -457,6 +457,7 @@ display: flex;
 .properties-titre input{
   padding: 8px 30px;
   border-radius: 13px;
+  padding-left: 20px;
 }
 .card-properties{
   display: flex;
@@ -466,7 +467,7 @@ display: flex;
 
 }
 .card-properties:hover{
-  background-color: #98afd0;
+    background-color: #98afd0;
     color: white;
     transform: scale(1.05);
 }
